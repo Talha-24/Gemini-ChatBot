@@ -85,7 +85,7 @@ function handleChatData(message) {
     chatDataContainer.appendChild(div);
     //Making Aichat Data Dynamically
     setTimeout(() => {
-        let html = `<img id="aiimage" src="/Images/ai.png" alt="">
+        let html = `<img id="aiimage" src="favicon.svg" alt="">
             <div class="ai-response-area">
             <img id="loadingImage" src="/Images//Loading.gif" alt="">
 
