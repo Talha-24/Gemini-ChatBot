@@ -27,7 +27,7 @@ async function generateResponse(div) {
 
     let postreqestHandler = {
         method: "POST",
-        header: { 'content-type': 'application/josn' },
+        header: { 'content-type': 'application/json' },
         body: JSON.stringify(
             {
                 "contents": [{ "parts": [{ "text": user.message }, (user.file.data ? [{ "inline_data": user.file }] : []),] }]
